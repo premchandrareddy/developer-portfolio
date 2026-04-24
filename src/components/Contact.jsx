@@ -55,6 +55,10 @@ const Contact = () => {
             I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
           </p>
 
+          <p className="text-slate-700 mt-2 max-w-2xl mx-auto mb-10 text-lg font-medium leading-relaxed">
+            I'm actively looking for Full Stack Java Developer, Software Engineer, or Associate SDE roles — full time and available to start immediately. On-site, hybrid, or remote all work for me. If my profile looks like a fit, just reach out.
+          </p>
+
           <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 mb-12 w-full max-w-3xl">
             <a href="mailto:premchandrakamasani@gmail.com" className="flex items-center gap-3 text-slate-600 hover:text-brand transition-colors">
               <span className="p-3 bg-slate-200 text-brand rounded-full shadow-sm">

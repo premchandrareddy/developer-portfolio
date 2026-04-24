@@ -7,16 +7,16 @@ const Projects = () => {
     {
       title: "Sales Savvy",
       type: "Full Stack E-Commerce Platform",
-      description: "Developed a full-stack e-commerce web application for managing products, users, and orders. Features include secure authentication via Spring Security & JWT, payment integrations (Razorpay/Stripe/PayPal), and Docker deployment.",
-      techStack: ["React.js", "Spring Boot", "MySQL", "Docker", "REST APIs"],
+      description: "I built Sales Savvy because I kept seeing small businesses lose leads simply because nobody followed up in time. So I built them a system that handles the entire lead journey — from the first contact all the way to close.\n\nThe automated tracking cut follow-up delays by 25%. The SQL queries I wrote for regional filtering used to take 4 to 5 seconds — now they run in under a second. And the dashboard I built gives managers a live view of exactly how their team is performing, without having to ask anyone for a report.\n\nBuilt with React.js, Spring Boot, MySQL, and Docker. Secured with Spring Security and JWT. The whole thing is deployed and working.",
+      techStack: ["React.js", "Spring Boot", "MySQL", "Docker", "REST APIs", "JWT", "Git"],
       github: "#",
       live: "#"
     },
     {
       title: "Learn Sphere",
       type: "E-Learning Platform",
-      description: "An advanced e-learning platform using a modular, service-oriented architecture. Implemented user role management, course administration, and structured lesson delivery functionalities.",
-      techStack: ["React", "Java", "Spring Boot", "MySQL"],
+      description: "LearnSphere started as a question — what does a learning platform actually need to work well for students, instructors, and admins all at once? The answer was a clean role-based system where each type of user only sees what they need.\n\nI built the backend with Java and Spring Boot, handled role management with Spring Security across 3 access levels, and designed the course and lesson structure so it could grow without needing to be rebuilt. The frontend is React.js — component-based, responsive, and straightforward to navigate.",
+      techStack: ["React.js", "Java", "Spring Boot", "MySQL", "REST APIs"],
       github: "#",
       live: ""
     }

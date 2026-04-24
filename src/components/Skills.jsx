@@ -2,9 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   FaJava, FaReact, FaHtml5, FaCss3Alt, FaJsSquare, 
-  FaDatabase, FaGitAlt, FaObjectGroup, FaSitemap 
+  FaDatabase, FaGitAlt, FaObjectGroup, FaSitemap,
+  FaAws, FaDocker
 } from 'react-icons/fa';
-import { SiSpringboot, SiPostman } from 'react-icons/si';
+import { SiSpringboot, SiHibernate, SiApachemaven, SiApachekafka } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb';
 
 const Skills = () => {
@@ -12,15 +13,19 @@ const Skills = () => {
     { name: 'Java', icon: <FaJava /> },
     { name: 'Spring Boot', icon: <SiSpringboot /> },
     { name: 'REST APIs', icon: <TbApi /> },
-    { name: 'React JS', icon: <FaReact /> },
+    { name: 'React.js', icon: <FaReact /> },
+    { name: 'MySQL', icon: <FaDatabase /> },
+    { name: 'Microservices', icon: <FaSitemap /> },
+    { name: 'Hibernate', icon: <SiHibernate /> },
+    { name: 'AWS', icon: <FaAws /> },
+    { name: 'Git', icon: <FaGitAlt /> },
+    { name: 'Docker', icon: <FaDocker /> },
+    { name: 'Maven', icon: <SiApachemaven /> },
+    { name: 'Kafka', icon: <SiApachekafka /> },
+    { name: 'JavaScript', icon: <FaJsSquare /> },
     { name: 'HTML', icon: <FaHtml5 /> },
     { name: 'CSS', icon: <FaCss3Alt /> },
-    { name: 'JavaScript', icon: <FaJsSquare /> },
-    { name: 'MySQL', icon: <FaDatabase /> },
-    { name: 'Git', icon: <FaGitAlt /> },
-    { name: 'Postman', icon: <SiPostman /> },
-    { name: 'OOP', icon: <FaObjectGroup /> },
-    { name: 'MVC', icon: <FaSitemap /> }
+    { name: 'OOP', icon: <FaObjectGroup /> }
   ];
 
   const containerVariants = {

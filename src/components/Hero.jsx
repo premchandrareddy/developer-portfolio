@@ -19,10 +19,10 @@ const Hero = () => {
             K Premchandra Reddy
           </h1>
           <h2 className="text-xl sm:text-2xl text-slate-600 font-medium mb-4 sm:mb-6">
-            Full Stack Developer (Java + React + Spring Boot)
+            Full Stack Java Developer | Spring Boot · React.js · REST APIs
           </h2>
           <p className="text-base sm:text-lg text-slate-600 mb-6 sm:mb-10 max-w-lg leading-relaxed">
-            Building scalable, secure, and high-performance web applications using Java, Spring Boot, and React.
+            I build backend systems that don't fall apart under pressure — and frontends that people actually enjoy using.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

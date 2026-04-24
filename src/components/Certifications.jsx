@@ -5,6 +5,13 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 const Certifications = () => {
   const certs = [
     {
+      title: "JPMorgan Chase Software Engineering Job Simulation",
+      issuer: "Forage",
+      date: "April 2026",
+      description: "This wasn't a course — it was a real engineering problem. I built a Kafka-driven transaction pipeline in Spring Boot that consumed high-volume financial messages, validated them, and persisted everything using Spring Data JPA and H2 SQL. I connected it to an external REST Incentive API using RestTemplate, built a clean JSON balance endpoint through a Spring Controller, and ran the whole thing through Maven test suites until every single test passed. The kind of backend work I genuinely enjoy doing.",
+      skills: ["Java", "Spring Boot", "Kafka", "REST APIs", "Maven", "Spring Data JPA"]
+    },
+    {
       title: "Netflix Clone (HTML & CSS)",
       issuer: "Letsupgrade",
       date: "Completed",
@@ -55,6 +62,10 @@ const Certifications = () => {
               <h3 className="text-xl font-bold text-slate-900 mb-2">{cert.title}</h3>
               <p className="text-sm text-slate-500 mb-4">{cert.issuer} • {cert.date}</p>
               
+              {cert.description && (
+                <p className="text-sm text-slate-600 mb-4 leading-relaxed">{cert.description}</p>
+              )}
+
               <div className="flex-grow">
                 <p className="text-sm font-medium text-slate-700 mb-2">Skills:</p>
                 <div className="flex flex-wrap gap-2">
